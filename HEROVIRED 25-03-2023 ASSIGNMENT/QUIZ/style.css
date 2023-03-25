@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgreen;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+  height:100vh;
+}
+.class1{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 30px 30px 30px 30px rgba(100, 100, 100, 0.1);
+  width: 900px;
+  overflow: hidden;
+}
+.class2{
+  padding: 48px;
+}
+h1{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  padding:2px;
+}
+ul li{
+  font-size: 16px;
+  margin-top:16px;
+}
+ul li label{
+  cursor: pointer;
+}
+button{
+  background-color:green;
+  color: black;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size:16px;
+  font-family:cursive;
+  padding: 16px;
+
+}
